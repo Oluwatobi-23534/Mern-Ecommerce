@@ -91,7 +91,7 @@ const Login = () => {
                   
                   <div className="mt-4">
                       <p className="text-gray-700">
-                          New Customer ? {" "}
+                          New Customer? {" "}
                           <Link to={redirect ? `/register?redirect=${redirect}` : '/register'} className="text-violet-500 hover:underline">
                               Register
                           </Link>
